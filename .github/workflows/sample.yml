@@ -1,0 +1,11 @@
+name: Sample
+
+on:
+  push:
+
+jobs:
+  sample:
+    runs_on: ubuntu-latest
+    steps:
+      - name: exec date
+        run: date
