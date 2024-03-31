@@ -1,6 +1,6 @@
 name: Sample
 
-on:
+runs-on:
   push:
 
 jobs:
